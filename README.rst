@@ -93,7 +93,7 @@ In this infrastructure:
 Bugs
 ----
 
-* https://github.com/areguera/nethserver-freeradius/issues
+* https://github.com/areguera/nethserver-6-freeradius/issues
 
 Author
 ------
