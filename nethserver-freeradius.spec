@@ -1,6 +1,6 @@
 Name: nethserver-freeradius
 Summary: FreeRADIUS integration in NethServer
-Version: 0.0.7
+Version: 0.0.8
 Release: 1%{?dist}
 License: GPL
 Source: %{name}-%{version}.tar.gz
@@ -46,6 +46,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Tue Jul 25 2017 Alain Reguera Delgado <alain.reguera@gmail.com> - 0.0.8-1
+- Fix uppercase MAC address verification
+
 * Sat Jul 22 2017 Alain Reguera Delgado <alain.reguera@gmail.com> - 0.0.7-1
 - Remove Nas tab
 - Fix link to report issues in README.rst
